@@ -1,6 +1,6 @@
 # QQberconMonitoring
 
-## # Arma3 OPQ QQ框架机器人 BERcon消息监听插件
+## # Arma3 OPQ QQ框架机器人 BERcon消息监听插件源代码
 > 监听服务器消息 玩家退出，加入，聊天自动发送到QQ群
 BE RCON断线重连
 服务器信息查询等功能实时推送
