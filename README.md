@@ -20,4 +20,5 @@ setting:
      roBotQQ: 机器人QQ
      qqServer: QQ服务器HTTP API地址(???/v1/LuaApiCaller)
 ```
+本程序需要Java环境11版本以上才可以运行!
 将配置文件放置与插件jar包同一目录下启动无报错插件即各种正常!
