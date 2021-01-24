@@ -29,8 +29,6 @@ import java.util.concurrent.Future;
  * @author admin
  */
 public class BeServiceImpl implements Runnable {
-    private Charset charset= Charset.forName("utf-8");
-
 
     @Override
     public void run() {
@@ -41,12 +39,14 @@ public class BeServiceImpl implements Runnable {
         String url = BeConfig.getQqServer()+"/v1/LuaApiCaller?qq="+ BeConfig.getRoBotQQ()+"&funcname=SendMsg&timeout=10";
 
         try{
-            //设置连接延迟
-           //   beRconConfiguration.setConnectionDelay((long)3);
-            // 设置保持活动时间
-         //   beRconConfiguration.setKeepAliveTime(20000L);
-            //设置be超时
-         //    beRconConfiguration.setTimeoutTime((long)10);
+            /**
+            设置连接延迟
+              beRconConfiguration.setConnectionDelay((long)3);
+             设置保持活动时间
+            beRconConfiguration.setKeepAliveTime(20000L);
+            设置be超时
+            beRconConfiguration.setTimeoutTime((long)10);
+             */
             BE = new BERconClient(beRconConfiguration);
             BE.connect(loginCredential);
             for (int i = 0;;i++){
