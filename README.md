@@ -20,4 +20,4 @@ setting:
      roBotQQ: 机器人QQ
      qqServer: QQ服务器HTTP API地址(???/v1/LuaApiCaller)
 ```
-将配置文件防盗与插件jar包同一目录下启动无报错插件即各种正常!
+将配置文件放置与插件jar包同一目录下启动无报错插件即各种正常!
