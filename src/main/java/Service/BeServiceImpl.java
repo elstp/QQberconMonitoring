@@ -41,8 +41,6 @@ public class BeServiceImpl implements Runnable {
         String url = BeConfig.getQqServer()+"/v1/LuaApiCaller?qq="+ BeConfig.getRoBotQQ()+"&funcname=SendMsg&timeout=10";
 
         try{
-
-
             //设置连接延迟
            //   beRconConfiguration.setConnectionDelay((long)3);
             // 设置保持活动时间
@@ -61,7 +59,6 @@ public class BeServiceImpl implements Runnable {
                 if (i >=10) {
                     throw new BERconException("连接失败!");
                 }
-
             }
 
             BE.addResponseHandler(response -> {
