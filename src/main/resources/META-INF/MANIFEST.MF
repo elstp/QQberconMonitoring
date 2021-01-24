@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Main-Class: DestinyMain
+Class-Path: fastjson-1.2.73.jar be-rcon-1.1.0.jar slf4j-api-2.0.0-alpha1
+ .jar commons-logging-1.2.jar httpcore-4.4.4.jar httpcore-nio-4.4.4.jar 
+ httpclient-4.5.1.jar snakeyaml-1.26.jar commons-codec-1.9.jar httpasync
+ client-4.1.1.jar
+

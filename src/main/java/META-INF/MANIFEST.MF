@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Main-Class: DestinyMain
+Class-Path: snakeyaml-1.26.jar httpasyncclient-4.1.1.jar httpclient-4.5.
+ 1.jar fastjson-1.2.73.jar httpcore-4.4.4.jar be-rcon-1.1.0.jar httpcore
+ -nio-4.4.4.jar commons-logging-1.2.jar slf4j-api-2.0.0-alpha1.jar commo
+ ns-codec-1.9.jar
+
